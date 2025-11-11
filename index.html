@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>35 Livros de Colorir Bíblicos - Jesus Goods</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row align-items-center py-2">
+                <div class="col-6 text-start">
+                    <span class="badge bg-success">
+                        <i class="bi bi-shield-check"></i> SSL Seguro
+                    </span>
+                </div>
+                <div class="col-6 text-end">
+                    <small class="text-white">Compra 100% Segura e Protegida</small>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-12 col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-3">35 Livros de Colorir Bíblicos</h1>
+                    <p class="lead mb-4">Desperte a criatividade e ensine a Palavra de Deus para seus filhos da forma
+                        mais divertida!</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Acesso Vitalício e
+                            Imediato</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Imprima quantas vezes
+                            quiser</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Material em PDF de
+                            alta qualidade</li>
+                    </ul>
+                    <a href="#ofertas" class="btn btn-primary btn-lg w-100 w-lg-auto px-5">
+                        QUERO MEUS LIVROS!
+                    </a>
+                    <p class="small mt-3 text-muted">Compra segura e acesso imediato.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="images/princ.png" alt="Crianças colorindo desenhos bíblicos" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por que escolher -->
+    <section class="why-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-3">Por que escolher nossos Livros?</h2>
+                    <p class="lead">Uma forma única de unir diversão, aprendizado e os ensinamentos de Deus.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm why-card">
+                        <div class="card-body">
+                            <div class="why-icon-circle why-icon-1 mb-4">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h3 class="h4 mb-3 fw-bold">Aprender Brincando</h3>
+                            <p class="text-muted">As crianças absorvem histórias bíblicas de forma natural e divertida
+                                enquanto pintam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm why-card">
+                        <div class="card-body">
+                            <div class="why-icon-circle why-icon-2 mb-4">
+                                <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </div>
+                            <h3 class="h4 mb-3 fw-bold">Material em PDF</h3>
+                            <p class="text-muted">Receba os arquivos em alta resolução e imprima no seu tempo, quantas
+                                cópias desejar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm why-card">
+                        <div class="card-body">
+                            <div class="why-icon-circle why-icon-3 mb-4">
+                                <i class="bi bi-shield-lock-fill"></i>
+                            </div>
+                            <h3 class="h4 mb-3 fw-bold">Acesso Vitalício</h3>
+                            <p class="text-muted">Pague uma única vez e tenha acesso para sempre, incluindo futuras
+                                atualizações.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conheça os livros -->
+    <section class="books-section py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-3">Conheça alguns de nossos livros</h2>
+                    <p class="lead">Livros únicos para momentos de fé e relaxamento</p>
+                </div>
+            </div>
+            <div class="books-carousel-wrapper">
+                <div class="books-carousel-container">
+                    <button class="carousel-btn carousel-btn-prev" aria-label="Anterior">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <div class="books-carousel" id="books-carousel">
+                        <!-- Os livros serão inseridos via JavaScript -->
+                    </div>
+                    <button class="carousel-btn carousel-btn-next" aria-label="Próximo">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usos -->
+    <section class="uses-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-3">Transforme momentos especiais com sua família, célula e escola
+                        dominical</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="text-center">
+                        <i class="bi bi-people-fill text-primary display-4 mb-3"></i>
+                        <h4>Células</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center">
+                        <i class="bi bi-book-fill text-primary display-4 mb-3"></i>
+                        <h4>Escola Dominical</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center">
+                        <i class="bi bi-house-heart-fill text-primary display-4 mb-3"></i>
+                        <h4>Devocional Familiar</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="text-center">
+                        <i class="bi bi-mortarboard-fill text-primary display-4 mb-3"></i>
+                        <h4>Pedagogia</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="#ofertas" class="btn btn-primary btn-lg">QUERO VER AS OFERTAS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-3">O que nossos clientes dizem</h2>
+                    <div class="mb-4">
+                        <span class="badge bg-warning text-dark fs-6">4.9/5</span>
+                        <span class="ms-2">- 347 avaliações</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-carousel-wrapper">
+                <div class="testimonials-carousel-container">
+                    <button class="carousel-btn carousel-btn-prev testimonials-prev" aria-label="Anterior">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-carousel" id="testimonials-carousel">
+                        <!-- Depoimentos serão inseridos via JavaScript -->
+                    </div>
+                    <button class="carousel-btn carousel-btn-next testimonials-next" aria-label="Próximo">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ofertas -->
+    <section class="offers-section py-5" id="ofertas">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold mb-3 text-white">OFERTA LIMITADA - Apenas hoje!</h2>
+                    <p class="lead text-white fw-bold mb-2 fs-4">Escolha Sua Oferta Especial</p>
+                    <p class="text-white-50">Livros de qualidade profissional para enriquecer seus momentos de fé</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Pacote Básico -->
+                <div class="col-12 col-lg-5">
+                    <div class="card h-100 border-2 shadow-lg offer-card-basic">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-4 d-flex align-items-center">
+                                <i class="bi bi-star-fill text-warning me-2"></i>
+                                Pacote Básico
+                            </h3>
+                            <div class="mb-3 text-center">
+                                <div class="d-inline-flex align-items-center gap-2 flex-wrap justify-content-center">
+                                    <span class="text-decoration-line-through text-muted fs-5">R$ 47,99</span>
+                                    <span class="badge bg-danger fs-6">-79%</span>
+                                </div>
+                            </div>
+                            <div class="display-3 fw-bold text-dark mb-2 text-center">R$ 10,00</div>
+                            <p class="text-success fw-bold mb-4 fs-5">
+                                <i class="bi bi-piggy-bank-fill me-1"></i>Você economiza R$ 37,99
+                            </p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>35 Livros
+                                    de
+                                    Colorir em PDF</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>Temas
+                                    Bíblicos
+                                    Variados</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>Acesso
+                                    Vitalício</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>Garantia
+                                    de 7
+                                    dias</li>
+                            </ul>
+                            <button class="btn btn-basic-package w-100 btn-lg fw-bold py-3"
+                                onclick="handlePurchase('basico')">
+                                QUERO O PACOTE BÁSICO
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pacote Premium -->
+                <div class="col-12 col-lg-5">
+                    <div class="card h-100 border-warning border-3 shadow-lg offer-card-premium position-relative">
+                        <div class="position-absolute top-0 start-50 translate-middle" style="z-index: 10;">
+                            <span class="badge bg-warning text-dark px-4 py-2 fs-6 fw-bold text-center">
+                                <i class="bi bi-trophy-fill me-1"></i>MAIS VENDIDO
+                            </span>
+                        </div>
+                        <div class="card-body p-4 pt-5">
+                            <h3 class="card-title h4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-award-fill text-warning me-2"></i>
+                                Pacote Premium
+                            </h3>
+                            <div class="mb-3 text-center">
+                                <div class="d-inline-flex align-items-center gap-2 flex-wrap justify-content-center">
+                                    <span class="text-decoration-line-through text-muted fs-5">R$ 99,90</span>
+                                    <span class="badge bg-danger fs-6">-83%</span>
+                                </div>
+                            </div>
+                            <div class="display-3 fw-bold text-dark mb-2 text-center">R$ 17,00</div>
+                            <p class="text-success fw-bold mb-4 fs-5">
+                                <i class="bi bi-piggy-bank-fill me-1"></i>Você economiza R$ 82,90
+                            </p>
+
+                            <!-- Barra destacada -->
+                            <div class="premium-includes-bar mb-4 p-3 text-center">
+                                <span class="fw-bold text-white">TUDO DO PACOTE BÁSICO +</span>
+                            </div>
+
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3">
+                                    <i class="bi bi-gift-fill text-warning me-2 fs-5"></i>
+                                    Planner Devocional Infantil
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-gift-fill text-warning me-2 fs-5"></i>
+                                    Livro de Atividades Cristãs
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-gift-fill text-warning me-2 fs-5"></i>
+                                    Desafio Bíblico de 7 dias
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-gift-fill text-warning me-2 fs-5"></i>
+                                    Cartões para Memorização
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-premium-package w-100 btn-lg fw-bold py-3"
+                                onclick="handlePurchase('premium')">
+                                QUERO O PACOTE PREMIUM
+                            </button>
+
+                            <div class="text-center mt-3">
+                                <p class="text-muted small mb-1">
+                                    <i class="bi bi-people-fill text-warning me-1"></i>
+                                    <strong>+500 pessoas</strong> já escolheram este pacote
+                                </p>
+                                <div class="stars-small">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <h2 class="display-5 fw-bold text-center mb-5">Perguntas Frequentes</h2>
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1">
+                                    Como recebo os livros?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Após a confirmação do pagamento, você receberá um e-mail com um link para baixar
+                                    todos os livros em formato PDF.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2">
+                                    Posso imprimir os desenhos?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim! Você pode imprimir quantas vezes quiser, para usar com seus filhos, em escolas
+                                    dominicais ou com outras crianças.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3">
+                                    O pagamento é seguro?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Com certeza. Usamos uma plataforma de pagamento reconhecida e segura, que protege
+                                    todos os seus dados.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4">
+                                    Como funciona a garantia?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Oferecemos garantia incondicional de 7 dias. Se não ficar satisfeito por qualquer
+                                    motivo, devolvemos 100% do seu dinheiro sem perguntas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garantia -->
+    <section class="guarantee-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <div class="card border-success border-2 shadow">
+                        <div class="card-body p-5">
+                            <i class="bi bi-shield-check-fill text-success display-1 mb-3"></i>
+                            <h2 class="h3 fw-bold mb-3">Garantia de 7 Dias!</h2>
+                            <p class="lead mb-4">Seu risco é zero. Se por qualquer motivo você não ficar satisfeito com
+                                o material, basta pedir seu dinheiro de volta em até 7 dias e nós devolveremos 100% do
+                                valor, sem perguntas.</p>
+                            <a href="#ofertas" class="btn btn-success btn-lg">TIREI MINHAS DÚVIDAS, QUERO COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-3">
+                    <p class="mb-2">
+                        <i class="bi bi-shield-check"></i> Compra 100% Segura e Protegida
+                    </p>
+                </div>
+                <div class="col-12">
+                    <p class="mb-0">&copy; 2025 Jesus Goods. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
